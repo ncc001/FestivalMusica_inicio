@@ -1,0 +1,33 @@
+{
+	"name": "festivalmusica_inicio",
+	"version": "1.0.0",
+	"description": "proyecto con gulp sass y html",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "sass --watch src/scss:build/css",
+		"tarea": "gulp tarea",
+		"dev": "gulp dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ncc001/freelancer_inicio.git"
+	},
+	"keywords": [
+		"sass",
+		"gulpd"
+	],
+	"author": "ncc",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ncc001/freelancer_inicio/issues"
+	},
+	"homepage": "https://github.com/ncc001/freelancer_inicio#readme",
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-plumber": "^1.2.1",
+		"gulp-sass": "^5.1.0",
+		"plumber": "^0.4.8",
+		"sass": "^1.52.1"
+	}
+}
